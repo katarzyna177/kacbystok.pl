@@ -1,0 +1,11 @@
+SetEnv PHP_VER 5_3
+SetEnv REGISTER_GLOBALS 0
+
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^kacbystok.pl(.*) [NC]
+RewriteRule ^(.*)$ http://www.kacbystok.pl/$1 [R=301,L]
+RewriteRule ^index.(php|html|htm)$ / [R=301,L]
+RewriteRule ^([a-z0-9-_]+)/index.(php|html|htm)$ /$1/ [R=301,L]
+RewriteRule ^(.+)/$ /$1 [L,R=301]
+
