@@ -23,14 +23,9 @@ body {
     padding-top: 150px;
     padding-bottom: 50px;
     color: #f8f8f8;
-    background: url(../bialystok.png) no-repeat fixed center 100%;
+    background: url(../images/bialystok.png) no-repeat fixed center 100%;
     background-size: cover;   
 }
-/*@font-face {font-family:"Rodi de Asis";
-            src:url("Rodi_de_Asis.eot")}
-.password {
-    font-family: "../Rodi_de_Asis.eot";
-}*/
 
 /*slogan 2*/ 
 .slogan {
@@ -114,7 +109,7 @@ body {
 
 /*content-drugs-back 4*/
 .content-drugs-back {
-     background: url(../hand3.png) no-repeat fixed center 100%;
+     background: url(../images/hand3.png) no-repeat fixed center 100%;
      background-size: cover;  
      padding-top: 100px;
      padding-bottom: 100px;
@@ -154,7 +149,7 @@ text-padding {
 
 /*content-account-number 6*/
 .content-account-number {
-    background: url(../film.png) no-repeat center center;
+    background: url(../images/film.png) no-repeat center center;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
